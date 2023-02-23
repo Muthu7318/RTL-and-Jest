@@ -1,4 +1,5 @@
 import { useState } from "react";
+import RoleExample from "./RoleExample";
 import UserForm from "./UserForm";
 import UserList from "./UserList";
 
@@ -10,9 +11,10 @@ function App() {
 
   return (
     <div>
-      <UserForm onUserAdd={handleUserAdd}></UserForm>
+      {/* <UserForm onUserAdd={handleUserAdd}></UserForm>
       <hr></hr>
-      <UserList users={users}></UserList>
+      <UserList users={users}></UserList> */}
+      <RoleExample></RoleExample>
     </div>
   );
 }
